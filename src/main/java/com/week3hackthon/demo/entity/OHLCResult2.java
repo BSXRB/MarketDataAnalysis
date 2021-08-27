@@ -12,6 +12,15 @@ public class OHLCResult2 {
     Integer week;
     Integer year;
     Integer month;
+    String str = "test";
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
 
     public String getName() {
         return name;
