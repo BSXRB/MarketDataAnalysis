@@ -12,7 +12,15 @@ public class OHLCResult2 {
     Integer week;
     Integer year;
     Integer month;
+    String pro="test";
 
+    public String getPro() {
+        return pro;
+    }
+
+    public void setPro(String pro) {
+        this.pro = pro;
+    }
 
     public String getName() {
         return name;
