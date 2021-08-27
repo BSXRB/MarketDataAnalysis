@@ -12,6 +12,19 @@ import java.util.PrimitiveIterator;
 
 @Document(collection="stock_price")
 public class DataEntity implements Serializable {
+    public DataEntity(String date, String open, String high, String low, String close, String volume, String name) {
+        this.date = date;
+        this.open = open;
+        this.high = high;
+        this.low = low;
+        this.close = close;
+        this.volume = volume;
+        this.name = name;
+    }
+
+    public DataEntity() {
+    }
+
     //private Long id;
 //    @Field("Id")
 //    private String id;
